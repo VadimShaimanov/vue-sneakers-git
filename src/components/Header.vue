@@ -33,11 +33,12 @@ const emit = defineEmits(['openDrawer'])
           <span>Закладки</span>
         </li>
       </router-link>
-
+      <router-link to="/profile">
       <li class="flex items-center cursor-pointer gap-3 text-gray-500 hover:text-black">
         <img src="/profile.svg" alt="cart" />
         <span>Профиль</span>
       </li>
+    </router-link>
     </ul>
   
   </header>
